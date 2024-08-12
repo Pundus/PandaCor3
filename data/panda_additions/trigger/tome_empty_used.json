@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "player": [],
+          "recipe": "panda_additions:trigger/tome_empty_used"
+        }
+      }
+    },
+    "rewards": {
+      "function": "panda_additions:custom_item_advancement_trigger/tome_empty_used"
+    },
+    "sends_telemetry_event": false
+  }
+  

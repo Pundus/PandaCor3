@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "rare",
+      "minecraft:custom_model_data": 137035,
+      "minecraft:item_name": "{\"translate\": \"item.panda_additions.tome_empty\", \"fallback\": \"Empty Tome\"}",
+      "minecraft:recipes": [
+        "panda_additions:trigger/tome_empty_used"
+      ]
+    }
+  }
+}
