@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "enchantment.pandacore.masayoshi",
+    "translate": "enchantment.panda_drehmal.masayoshi",
     "fallback": "Bloodletting"
   },
   "exclusive_set": "#minecraft:exclusive_set/damage",
@@ -47,7 +47,7 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:damage_entity",
-          "damage_type": "drehmal:masayoshi",
+          "damage_type": "panda_drehmal:masayoshi",
           "min_damage": {
             "type": "minecraft:linear",
             "base": 1,
@@ -58,14 +58,6 @@
             "base": 1,
             "per_level_above_first": 1
           }
-        }
-      },
-      {
-        "enchanted": "attacker",
-        "affected": "attacker",
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "drehmal:particles/bloodspurt"
         }
       },
       {
@@ -487,7 +479,7 @@
     ],
     "minecraft:attributes": [
       {
-        "id": "pandacore:enchantment.masayoshi.attack_speed",
+        "id": "panda_drehmal:enchantment.masayoshi.attack_speed",
         "attribute": "minecraft:generic.attack_speed",
         "amount": {
           "type": "minecraft:linear",
@@ -497,7 +489,7 @@
         "operation": "add_value"
       },
       {
-        "id": "pandacore:enchantment.masayoshi.attack_damage",
+        "id": "panda_drehmal:enchantment.masayoshi.attack_damage",
         "attribute": "minecraft:generic.attack_damage",
         "amount": {
           "type": "minecraft:linear",
@@ -507,7 +499,7 @@
         "operation": "add_value"
       },
       {
-        "id": "pandacore:enchantment.masayoshi.movement_speed",
+        "id": "panda_drehmal:enchantment.masayoshi.movement_speed",
         "attribute": "minecraft:generic.movement_speed",
         "amount": {
           "type": "minecraft:linear",

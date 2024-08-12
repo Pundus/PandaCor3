@@ -1,1 +1,0 @@
-#particle block{block_state:{Name:redstone_block}} ~ ~1.5 ~ 0.25 0.5 0.25 1 8

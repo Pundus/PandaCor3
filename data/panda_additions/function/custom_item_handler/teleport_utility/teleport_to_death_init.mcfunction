@@ -1,5 +1,3 @@
-execute store result storage pandacore:player_lastdeathlocation x int 1 run data get entity @s LastDeathLocation.pos.[0]
-execute store result storage pandacore:player_lastdeathlocation y int 1 run data get entity @s LastDeathLocation.pos.[1]
-execute store result storage pandacore:player_lastdeathlocation z int 1 run data get entity @s LastDeathLocation.pos.[2]
+function pandacore:global_storage/player/gs.store.death_location
 
 tag @s add pandacore_teleport_death
